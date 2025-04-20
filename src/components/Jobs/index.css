@@ -1,0 +1,88 @@
+.jobs-bg-container {
+  background-color: #000000;
+  background-size: cover;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.bg-container {
+  background-color: #000000;
+  background-size: cover;
+  height: 100%;
+}
+.jobs-profile-options-container {
+  width: 20%;
+  margin: 20px;
+}
+.job-content-container {
+  width: 80%;
+  margin: 20px;
+}
+.search-container {
+  border: 1px solid #7e858e;
+  width: 300px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 5px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+.search-input {
+  border: none;
+  background-color: transparent;
+  padding: 10px;
+  color: #f1f5f9;
+  width: 300px;
+  height: 30px;
+}
+.search-icon {
+  background-color: #7e858e;
+  /* position: absolute; */
+  font-size: 20px;
+  height: 100%;
+  /* padding: 5px; */
+}
+.search-btn {
+  background-color: #7e858e;
+  border: none;
+  outline: none;
+  margin: 0px;
+  height: 100%;
+  width: 60px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+}
+
+.employment-type-list-container {
+  list-style: none;
+  margin-left: 0px;
+  padding-left: 0px;
+  color: #ffffff;
+}
+.employment-type-text {
+  font-size: 20px;
+}
+.salary-range-list-container {
+  list-style: none;
+  margin-left: 0px;
+  padding-left: 0px;
+  color: #ffffff;
+}
+.salary-type-text {
+  font-size: 20px;
+}
+.failure-img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #ffffff;
+  font-family: 'Roboto';
+}

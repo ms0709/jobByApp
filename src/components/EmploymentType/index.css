@@ -1,0 +1,13 @@
+.employement-type-container {
+  margin: 30px 0px;
+}
+.employement-type-checkbox {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+.employement-type-label {
+  margin-top: 0px;
+  margin-left: 5px;
+  cursor: pointer;
+}

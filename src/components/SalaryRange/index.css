@@ -1,0 +1,14 @@
+.salary-range-container {
+  margin: 30px 0px;
+  padding-left: 0px;
+}
+.radio-btn {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+.radio-label {
+  margin-top: 0px;
+  margin-left: 5px;
+  cursor: pointer;
+}
