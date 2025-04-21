@@ -86,3 +86,16 @@
   color: #ffffff;
   font-family: 'Roboto';
 }
+
+.location-container {
+  list-style: none;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #ffffff;
+}
+
+.location-item {
+  margin-bottom: 20px;
+}
