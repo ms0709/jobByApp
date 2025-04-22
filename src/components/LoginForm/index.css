@@ -27,7 +27,8 @@ label {
   margin-bottom: 20px;
 }
 .input-field {
-  width: 350px;
+  width: 300px;
+  max-width: 350px;
   height: 40px;
   border: 1px solid #2c364c;
   border-radius: 3px;
@@ -50,4 +51,18 @@ label {
   align-self: flex-start;
   color: #ff0b37;
   margin-left: 50px;
+}
+
+@media screen and (max-width: 767px) {
+  .form-container {
+    width: 100%;
+    max-width: 350px;
+    padding: 20px;
+  }
+  .login-btn {
+    width: 200px;
+  }
+  .form-logo{
+    width: 100px;
+  }
 }

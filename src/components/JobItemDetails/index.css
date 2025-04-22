@@ -39,6 +39,7 @@
   flex-wrap: wrap;
   width: 700px;
 }
+
 .skill-text {
   font-size: 20px;
 }
@@ -73,4 +74,17 @@
   flex-wrap: wrap;
   list-style: none;
   padding-left: 0px;
+}
+
+@media screen and (max-width: 767px) {
+  .skills-list-container {
+    width: 100%;
+  }
+  .life-at-company-container {
+    flex-direction: column;
+  }
+  .life-at-company-img {
+  width: 50%;
+  border-radius: 10px;
+}
 }

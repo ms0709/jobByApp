@@ -69,9 +69,8 @@ class Profile extends Component {
     </button>
   )
 
-  render() {
+  renderViews = () => {
     const {renderStatus} = this.state
-
     switch (renderStatus) {
       case renderProfileStatus.loading:
         return this.renderLoader()
@@ -83,6 +82,10 @@ class Profile extends Component {
       default:
         return null
     }
+  }
+
+  render() {
+    return <div className="profile-bg-container">{this.renderViews()}</div>
   }
 }
 

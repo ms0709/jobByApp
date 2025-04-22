@@ -5,11 +5,22 @@
   gap: 20px;
   margin: 30px;
   width: 150px;
-
 }
 .skill-name {
   font-size: 20px;
 }
 .skill-img {
   width: 70px;
+}
+@media screen and (max-width: 767px) {
+  .skill-container{
+    width: 100%;
+    gap: 10px;
+  }
+  .skill-img{
+    width: 20px;
+  }
+  .skill-name {
+  font-size: 18px;
+}
 }

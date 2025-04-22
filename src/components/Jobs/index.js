@@ -227,6 +227,23 @@ class Jobs extends Component {
       <div className="bg-container">
         <Header />
         <div className="jobs-bg-container">
+          <div className="small-screen-search-container">
+            <input
+              type="search"
+              className="search-input"
+              placeholder="Search"
+              value={searchValue}
+              onChange={this.onChangeSearchValue}
+            />
+            <button
+              type="button"
+              data-testid="searchButton"
+              className="search-btn"
+              onClick={this.onClickSearch}
+            >
+              <BsSearch className="search-icon" />
+            </button>
+          </div>
           <div className="jobs-profile-options-container">
             <Profile /> <hr className="row" />
             <ul className="employment-type-list-container">
